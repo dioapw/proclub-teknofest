@@ -1,6 +1,9 @@
 # ProClub Teknofest Training and Tasks
 ### Training
-- odd and even number
-- leap year
+- Odd and Even Number
+- Leap Year
 ### Tasks
-- half or full pyramid stars pattern
+- Half or Full Pyramid Stars Pattern
+- Number Appears Once
+- Sum of Numbers
+- Total Occurrences
