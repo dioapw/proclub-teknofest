@@ -1,6 +1,5 @@
 def NonRepeating(arr, n):
 
-	repeatingList=[]
 	hashTable={}
 
 	for i in range(n):
@@ -8,11 +7,7 @@ def NonRepeating(arr, n):
 			hashTable[arr[i]]=0
 		hashTable[arr[i]]+=1
 
-	for j in hashTable:
-		if (hashTable[j]== 1):
-			repeatingList.append(j)
-
-	return repeatingList  
+	return [j for j, value in hashTable.items() if value == 1]  
 
 arrNum = input()
 arrNum = list(arrNum)
